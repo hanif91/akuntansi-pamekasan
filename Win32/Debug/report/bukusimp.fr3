@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="5.3.16" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="43201,3723872222" ReportOptions.Description.Text="" ReportOptions.LastChange="43320,3863809491" ScriptLanguage="PascalScript" ScriptText.Text="&#13;&#10;&#13;&#10;&#13;&#10;begin&#13;&#10;&#13;&#10;end.">
+  <Datasets>
+    <item DataSet="db0" DataSetName="db0"/>
+  </Datasets>
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" Columns="1" ColumnWidth="300" ColumnPositions.Text="0" HGuides.Text="" VGuides.Text="">
+    <TfrxPageHeader Name="PageHeader1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="54,62415" Left="0" Top="219,21274" Width="718,1107">
+      <TfrxLineView Name="Line1" Left="5,05906" Top="1,71073" Width="708,91373" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line2" Left="5,05906" Top="54,62415" Width="707,91373" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line3" Left="714,22279" Top="1,71073" Width="0" Height="52,91342" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line4" Left="5,05906" Top="1,71073" Width="0" Height="52,91342" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line5" Left="80,64966" Top="1,71073" Width="0" Height="52,91342" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line6" Left="80,64966" Top="28,16744" Width="409,92146" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line7" Left="190,24026" Top="28,16744" Width="0" Height="26,45671" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line8" Left="295,38992" Top="28,16744" Width="0" Height="26,45671" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line9" Left="390,98052" Top="28,16744" Width="0" Height="26,45671" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line11" Left="624,05937" Top="1,71073" Width="0" Height="52,91342" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line12" Left="491,57112" Top="1,71073" Width="0" Height="52,91342" Color="0" Frame.Typ="1"/>
+      <TfrxMemoView Name="Memo18" Left="8,83859" Top="12,26979" Width="68,03154" Height="30,23624" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Courier New" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="TANGGAL TRX"/>
+      <TfrxMemoView Name="Memo19" Left="118,44496" Top="5,49026" Width="238,11039" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Courier New" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="SIMPANAN"/>
+      <TfrxMemoView Name="Memo20" Left="84,42919" Top="31,94697" Width="100,03154" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Courier New" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="POKOK"/>
+      <TfrxMemoView Name="Memo21" Left="195,01979" Top="31,94697" Width="92,5906" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Courier New" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="WAJIB"/>
+      <TfrxMemoView Name="Memo22" Left="299,16945" Top="31,94697" Width="87,03154" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Courier New" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="MANASUKA"/>
+      <TfrxMemoView Name="Memo23" Left="397,76005" Top="31,94697" Width="88,03154" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Courier New" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="LAINNYA"/>
+      <TfrxMemoView Name="Memo24" Left="499,35065" Top="20,60838" Width="117,92919" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Courier New" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="SALDO"/>
+      <TfrxMemoView Name="Memo25" Left="635,0889" Top="20,60838" Width="71,35436" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Courier New" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="PARAF"/>
+    </TfrxPageHeader>
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="32,23624" Left="0" Top="336,37817" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="db0" DataSetName="db0" RowCount="0">
+      <TfrxLineView Name="Line23" Left="4,91338582677165" Top="0" Width="0" Height="32,12598425" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line24" Left="80,503937007874" Top="0" Width="0" Height="32,12598425" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line25" Left="190,110236220472" Top="0" Width="0" Height="32,12598425" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line26" Left="295,55905511811" Top="0" Width="0" Height="32,12598425" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line27" Left="390,80314961" Top="0" Width="0" Height="32,12598425" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line28" Left="491,716535433071" Top="0" Width="0" Height="32,12598425" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line29" Left="624" Top="0" Width="0" Height="32,12598425" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line30" Left="714,330708661417" Top="0" Width="0" Height="32,12598425" Color="0" Frame.Typ="1"/>
+      <TfrxMemoView Name="db0tglmutasi" Left="7,33859" Top="3,77953" Width="71,81107" Height="18,89765" DataSet="db0" DataSetName="db0" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Courier New" Font.Style="0" ParentFont="False" Text="[db0.&#34;tgltrx&#34;]"/>
+      <TfrxMemoView Name="db0simppokok" Left="86,92919" Top="3,77953" Width="99,03154" Height="18,89765" DataField="simppokok" DataSet="db0" DataSetName="db0" DisplayFormat.FormatStr="#,##0.##;(#,##0.##)" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Courier New" Font.Style="0" HAlign="haRight" HideZeros="True" ParentFont="False" Text="[db0.&#34;simppokok&#34;]"/>
+      <TfrxMemoView Name="db0simpmanasuka" Left="299,66945" Top="3,77953" Width="87,03154" Height="18,89765" DataField="simpmanasuka" DataSet="db0" DataSetName="db0" DisplayFormat.FormatStr="#,##0.##;(#,##0.##)" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Courier New" Font.Style="0" HAlign="haRight" HideZeros="True" ParentFont="False" Text="[db0.&#34;simpmanasuka&#34;]"/>
+      <TfrxMemoView Name="db0simphariraya" Left="394,26005" Top="3,77953" Width="95,03154" Height="18,89765" DataSet="db0" DataSetName="db0" DisplayFormat.FormatStr="#,##0.##;(#,##0.##)" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Courier New" Font.Style="0" HAlign="haRight" HideZeros="True" ParentFont="False" Text="[&#60;db0.&#34;simphariraya&#34;&#62;+&#60;db0.&#34;simplain&#34;&#62;]"/>
+      <TfrxMemoView Name="db0saldo" Left="496,85065" Top="3,77953" Width="124,92919" Height="18,89765" DataField="saldo" DataSet="db0" DataSetName="db0" DisplayFormat.FormatStr="#,##0.##;(#,##0.##)" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Courier New" Font.Style="0" HAlign="haRight" HideZeros="True" ParentFont="False" Text="[db0.&#34;saldo&#34;]"/>
+      <TfrxLineView Name="Line40" Left="5,41620286" Top="32,23624" Width="708,34230143" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxMemoView Name="db0simpwajib" Left="193,80550429" Top="3,77952756" Width="96,5906" Height="18,89765" DataSet="db0" DataSetName="db0" DisplayFormat.FormatStr="#,##0.##;(#,##0.##)" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Courier New" Font.Style="0" HAlign="haRight" HideZeros="True" ParentFont="False" Text="[db0.&#34;simpwajib&#34;]"/>
+    </TfrxMasterData>
+    <TfrxReportTitle Name="ReportTitle1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="177,67718" Left="0" Top="18,89765" Width="718,1107">
+      <TfrxMemoView Name="Memo2" Left="2,5" Top="81,00212823" Width="751,77211" Height="22,67718" Font.Charset="1" Font.Color="0" Font.Height="-19" Font.Name="Courier New" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="KARTU SIMPANAN ANGGOTA"/>
+      <TfrxMemoView Name="header2" Left="74,17718" Top="19,97047" Width="634,96104" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-19" Font.Name="Courier New" Font.Style="1" ParentFont="False" Text="KOTA PROBOLINGGO"/>
+      <TfrxMemoView Name="alamat1" Left="74,31107" Top="37,64765" Width="634,96104" Height="15,11812" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Times New Roman" Font.Style="0" ParentFont="False" Text="KOTA PROBOLINGGO"/>
+      <TfrxMemoView Name="alamat2" Left="74,31107" Top="50,76577" Width="634,96104" Height="15,11812" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Times New Roman" Font.Style="0" ParentFont="False" Text="KOTA PROBOLINGGO"/>
+      <TfrxMemoView Name="Memo3" Left="1,25" Top="111,10235" Width="117,16543" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Courier New" Font.Style="0" ParentFont="False" Text="KODE ANGGOTA"/>
+      <TfrxMemoView Name="Memo4" Left="1,25" Top="129,20269" Width="117,16543" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Courier New" Font.Style="0" ParentFont="False" Text="NAMA ANGGOTA"/>
+      <TfrxMemoView Name="Memo5" Left="1,25" Top="148,89765" Width="117,16543" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Courier New" Font.Style="0" ParentFont="False" Text="ALAMAT"/>
+      <TfrxMemoView Name="Memo6" Left="122,19496" Top="111,10235" Width="18,89765" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Courier New" Font.Style="0" ParentFont="False" Text=":"/>
+      <TfrxMemoView Name="Memo7" Left="122,19496" Top="129,20269" Width="18,89765" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Courier New" Font.Style="0" ParentFont="False" Text=":"/>
+      <TfrxMemoView Name="Memo8" Left="122,19496" Top="148,89765" Width="18,89765" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Courier New" Font.Style="0" ParentFont="False" Text=":"/>
+      <TfrxMemoView Name="db0namaanggota" Left="144,87214" Top="130" Width="381,73253" Height="18,89765" DataField="namaanggota" DataSet="db0" DataSetName="db0" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Courier New" Font.Style="0" ParentFont="False" Text="[db0.&#34;namaanggota&#34;]"/>
+      <TfrxMemoView Name="db0alamat" Left="144,87214" Top="148,89765" Width="381,73253" Height="18,89765" DataSet="db0" DataSetName="db0" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Courier New" Font.Style="0" ParentFont="False" Text="[db0.&#34;alamat&#34;]"/>
+      <TfrxMemoView Name="db0kodeanggota" Left="144,87214" Top="111,10235" Width="381,73253" Height="18,89765" DataField="kodeanggota" DataSet="db0" DataSetName="db0" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Courier New" Font.Style="0" ParentFont="False" Text="[db0.&#34;kodeanggota&#34;]"/>
+      <TfrxPictureView Name="Picture1" Left="2,5" Top="0,85235" Width="68,03154" Height="68,03154" HightQuality="True" Transparent="False" TransparentColor="16777215"/>
+      <TfrxMemoView Name="header1" Left="74,17718" Top="0,85235" Width="634,96104" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-19" Font.Name="Courier New" Font.Style="1" ParentFont="False" Text="PERUSAHAAN DAERAH AIR MINUM"/>
+    </TfrxReportTitle>
+  </TfrxReportPage>
+</TfrxReport>

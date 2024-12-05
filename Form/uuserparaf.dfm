@@ -1,0 +1,85 @@
+object fouserparaf: Tfouserparaf
+  Left = 0
+  Top = 0
+  Caption = 'Nama Paraf'
+  ClientHeight = 466
+  ClientWidth = 640
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  WindowState = wsMaximized
+  PixelsPerInch = 96
+  TextHeight = 13
+  object RzPanel4: TRzPanel
+    Left = 0
+    Top = 0
+    Width = 640
+    Height = 466
+    Align = alClient
+    BorderInner = fsPopup
+    BorderOuter = fsPopup
+    BorderHighlight = 5482548
+    BorderShadow = 5482548
+    TabOrder = 0
+    ExplicitTop = -30
+    ExplicitWidth = 491
+    ExplicitHeight = 407
+    object RzPageControl1: TRzPageControl
+      Left = 2
+      Top = 2
+      Width = 636
+      Height = 462
+      Hint = ''
+      ActivePage = TabSheet1
+      Align = alClient
+      BackgroundColor = 7457838
+      BoldCurrentTab = True
+      ButtonColor = 5264367
+      ButtonSymbolColor = clWhite
+      ButtonSymbolColorDisabled = 2250751
+      Color = 52479
+      LightenUnselectedColoredTabs = False
+      FlatColor = 7457838
+      HotTrackColor = 52479
+      ParentBackgroundColor = False
+      ParentColor = False
+      ParentShowHint = False
+      ShowCardFrame = False
+      ShowHint = False
+      TabColors.HighlightBar = 6336039
+      TabColors.Shadow = 52479
+      TabColors.Unselected = 3927039
+      TabIndex = 0
+      TabOrder = 0
+      TextColors.Selected = 6710886
+      TextColors.Unselected = 10260600
+      UseGradients = False
+      ExplicitWidth = 315
+      ExplicitHeight = 506
+      FixedDimension = 19
+      object TabSheet1: TRzTabSheet
+        Color = 52479
+        Caption = 'Nama Paraf'
+        ExplicitWidth = 487
+        ExplicitHeight = 384
+        object RzPanel1: TRzPanel
+          Left = 0
+          Top = 0
+          Width = 636
+          Height = 443
+          Align = alClient
+          BorderOuter = fsFlat
+          TabOrder = 0
+          ExplicitLeft = 112
+          ExplicitTop = 112
+          ExplicitWidth = 185
+          ExplicitHeight = 41
+        end
+      end
+    end
+  end
+end

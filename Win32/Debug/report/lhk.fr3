@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="5.2.3" DotMatrixReport="True" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="44099.3835657407" ReportOptions.Description.Text="" ReportOptions.LastChange="44123.5670958102" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end.">
+  <Datasets>
+    <item DataSet="dblr" DataSetName="db0"/>
+    <item DataSet="dblrrekap" DataSetName="db1"/>
+    <item DataSet="dm.dbttd" DataSetName="dbttd"/>
+  </Datasets>
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxDMPPage Name="Page1" PaperWidth="342.899778543893" PaperHeight="382.322669749942" PaperSize="256" LeftMargin="2.53999835958439" RightMargin="2.53999835958439" TopMargin="4.49791376176403" BottomMargin="4.49791376176403" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="" FontStyle="0">
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="17" Left="0" Top="221" Width="1276.8" ColumnWidth="0" ColumnGap="0" DataSet="dblr" DataSetName="db0" RowCount="0" Stretched="True">
+      <TfrxDMPLineView Name="DMPLine13" Left="1243.2" Top="8.5" Width="0" Height="8.5" Color="0"/>
+      <TfrxDMPLineView Name="DMPLine14" Left="1060.8" Top="8.5" Width="0" Height="8.5" Color="0"/>
+      <TfrxDMPLineView Name="DMPLine15" Left="878.4" Top="8.5" Width="0" Height="8.5" Color="0"/>
+      <TfrxDMPLineView Name="DMPLine16" Left="696" Top="8.5" Width="0" Height="8.5" Color="0"/>
+      <TfrxDMPLineView Name="DMPLine17" Left="14.4" Top="8.5" Width="0" Height="8.5" Color="0"/>
+      <TfrxDMPLineView Name="DMPLine8" Left="513.6" Top="8.5" Width="0" Height="8.5" Color="0"/>
+      <TfrxDMPLineView Name="DMPLine11" Left="331.2" Top="8.5" Width="0" Height="8.5" Color="0"/>
+      <TfrxDMPMemoView Name="db0uraian" Left="19.2" Top="0" Width="307.2" Height="17" DataField="uraian" DataSet="dblr" DataSetName="db0" FontStyle="0" ParentFont="False" TruncOutboundText="False" Text="[db0.&#34;uraian&#34;]"/>
+      <TfrxDMPMemoView Name="Memo1" Left="336" Top="0" Width="172.8" Height="17" DataSet="dblr" DataSetName="db0" DisplayFormat.FormatStr="#,##0.##" DisplayFormat.Kind="fkNumeric" FontStyle="0" HAlign="haRight" ParentFont="False" TruncOutboundText="False" Text="[db0.&#34;kb&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo2" Left="518.4" Top="0" Width="172.8" Height="17" DataSet="dblr" DataSetName="db0" DisplayFormat.FormatStr="#,##0.##" DisplayFormat.Kind="fkNumeric" FontStyle="0" HAlign="haRight" ParentFont="False" TruncOutboundText="False" Text="[db0.&#34;kk&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo9" Left="700.8" Top="0" Width="172.8" Height="17" DataSet="dblr" DataSetName="db0" DisplayFormat.FormatStr="#,##0.##" DisplayFormat.Kind="fkNumeric" FontStyle="0" HAlign="haRight" ParentFont="False" TruncOutboundText="False" Text="[db0.&#34;b2&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo10" Left="883.2" Top="0" Width="172.8" Height="17" DataSet="dblr" DataSetName="db0" DisplayFormat.FormatStr="#,##0.##" DisplayFormat.Kind="fkNumeric" FontStyle="0" HAlign="haRight" ParentFont="False" TruncOutboundText="False" Text="[db0.&#34;b3&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo11" Left="1065.6" Top="0" Width="172.8" Height="17" DataSet="dblr" DataSetName="db0" DisplayFormat.FormatStr="#,##0.##" DisplayFormat.Kind="fkNumeric" FontStyle="0" HAlign="haRight" ParentFont="False" TruncOutboundText="False" Text="[db0.&#34;total&#34;]"/>
+    </TfrxMasterData>
+    <TfrxGroupHeader Name="GroupHeader2" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="153" Left="0" Top="17" Width="1276.8" Condition="db0.&#34;tanggal&#34;" StartNewPage="True">
+      <TfrxDMPMemoView Name="header1" Left="57.6" Top="0" Width="1180.8" Height="17" HAlign="haCenter" TruncOutboundText="False" Text="PERUSAHAAN DAERAH AIR MINUM"/>
+      <TfrxDMPCommand Name="DMPCommand1" Left="28.8" Top="0" Width="9.6" Height="17" Command="#27#80"/>
+      <TfrxDMPCommand Name="DMPCommand3" Left="19.2" Top="0" Width="9.6" Height="17" Command="#18"/>
+      <TfrxDMPLineView Name="DMPLine1" Left="14.4" Top="42.5" Width="1228.8" Height="0" Color="0"/>
+      <TfrxDMPMemoView Name="DMPMemo5" Left="38.4" Top="51" Width="1190.4" Height="17" FontStyle="5" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" Text="LAPORAN HARIAN KAS"/>
+      <TfrxDMPLineView Name="DMPLine6" Left="14.4" Top="110.5" Width="1228.8" Height="0" Color="0"/>
+      <TfrxDMPLineView Name="DMPLine7" Left="14.4" Top="144.5" Width="1228.8" Height="0" Color="0"/>
+      <TfrxDMPMemoView Name="DMPMemo14" Left="19.2" Top="119" Width="307.2" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="URAIAN"/>
+      <TfrxDMPLineView Name="DMPLine9" Left="331.2" Top="110.5" Width="0" Height="34" Color="0"/>
+      <TfrxDMPLineView Name="DMPLine10" Left="513.6" Top="110.5" Width="0" Height="34" Color="0"/>
+      <TfrxDMPLineView Name="DMPLine12" Left="696" Top="110.5" Width="0" Height="34" Color="0"/>
+      <TfrxDMPLineView Name="DMPLine31" Left="1060.8" Top="110.5" Width="0" Height="34" Color="0"/>
+      <TfrxDMPMemoView Name="header2" Left="19.2" Top="17" Width="1219.2" Height="17" HAlign="haCenter" TruncOutboundText="False" Text="PEMERINTAH KABUPATEN PAMEKASAN&#13;&#10;PERUSAHAAN DAERAH AIR MINUM"/>
+      <TfrxDMPCommand Name="DMPCommand4" Left="38.4" Top="0" Width="9.6" Height="17" Command="#15"/>
+      <TfrxDMPLineView Name="DMPLine2" Left="14.4" Top="110.5" Width="0" Height="34" Color="0"/>
+      <TfrxDMPMemoView Name="DMPMemo1" Left="336" Top="119" Width="172.8" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="KAS BESAR"/>
+      <TfrxDMPMemoView Name="DMPMemo3" Left="518.4" Top="119" Width="172.8" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="KAS KECIL"/>
+      <TfrxDMPLineView Name="DMPLine3" Left="878.4" Top="110.5" Width="0" Height="34" Color="0"/>
+      <TfrxDMPMemoView Name="DMPMemo4" Left="700.8" Top="119" Width="172.8" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="GIRO B. JATIM"/>
+      <TfrxDMPMemoView Name="DMPMemo6" Left="883.2" Top="119" Width="172.8" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="BANK BTN"/>
+      <TfrxDMPMemoView Name="DMPMemo7" Left="1065.6" Top="119" Width="172.8" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="KAS/BANK LAINNYA"/>
+      <TfrxDMPLineView Name="DMPLine4" Left="1243.2" Top="110.5" Width="0" Height="34" Color="0"/>
+      <TfrxDMPMemoView Name="db0tanggal" Left="451.2" Top="68" Width="364.8" Height="17" DataField="tanggal" DataSet="dblr" DataSetName="db0" DisplayFormat.FormatStr="dd mmmm yyyy" DisplayFormat.Kind="fkDateTime" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" Text="[db0.&#34;tanggal&#34;]"/>
+      <TfrxDMPCommand Name="DMPCommand5" Left="48" Top="0" Width="9.6" Height="17" Command="#27#48"/>
+    </TfrxGroupHeader>
+    <TfrxGroupFooter Name="GroupFooter2" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="204" Left="0" Top="272" Width="1276.8">
+      <TfrxDMPMemoView Name="DMPMemo18" Left="67.2" Top="51" Width="278.4" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="Mengetahui"/>
+      <TfrxDMPMemoView Name="dbttdjab1" Left="67.2" Top="68" Width="278.4" Height="17" DataField="jab1" DataSet="dm.dbttd" DataSetName="dbttd" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="[dbttd.&#34;jab1&#34;]"/>
+      <TfrxDMPMemoView Name="dbttdnama2" Left="67.2" Top="153" Width="278.4" Height="17" DataSet="dm.dbttd" DataSetName="dbttd" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="[dbttd.&#34;nama1&#34;]"/>
+      <TfrxDMPMemoView Name="dbttdnik1" Left="67.2" Top="187" Width="278.4" Height="17" DataField="nik1" DataSet="dm.dbttd" DataSetName="dbttd" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="[dbttd.&#34;nik1&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo19" Left="480" Top="51" Width="278.4" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="Disetujui oleh"/>
+      <TfrxDMPMemoView Name="DMPMemo20" Left="480" Top="68" Width="278.4" Height="17" DataSet="dm.dbttd" DataSetName="dbttd" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="[dbttd.&#34;jab2&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo21" Left="480" Top="153" Width="278.4" Height="17" DataSet="dm.dbttd" DataSetName="dbttd" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="[dbttd.&#34;nama2&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo22" Left="480" Top="187" Width="278.4" Height="17" DataSet="dm.dbttd" DataSetName="dbttd" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="[dbttd.&#34;nik2&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo23" Left="892.8" Top="51" Width="278.4" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="Dibuat oleh"/>
+      <TfrxDMPMemoView Name="DMPMemo24" Left="892.8" Top="68" Width="278.4" Height="17" DataSet="dm.dbttd" DataSetName="dbttd" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="[dbttd.&#34;jab3&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo25" Left="892.8" Top="153" Width="278.4" Height="17" DataSet="dm.dbttd" DataSetName="dbttd" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="[dbttd.&#34;nama3&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo26" Left="892.8" Top="187" Width="278.4" Height="17" DataSet="dm.dbttd" DataSetName="dbttd" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="[dbttd.&#34;nik3&#34;]"/>
+      <TfrxDMPLineView Name="DMPLine19" Left="72" Top="178.5" Width="268.8" Height="0" Color="0"/>
+      <TfrxDMPLineView Name="DMPLine24" Left="484.8" Top="178.5" Width="268.8" Height="0" Color="0"/>
+      <TfrxDMPLineView Name="DMPLine25" Left="897.6" Top="178.5" Width="268.8" Height="0" Color="0"/>
+      <TfrxDMPCommand Name="DMPCommand2" Left="1171.2" Top="187" Width="9.6" Height="17" Command="#18"/>
+      <TfrxDMPLineView Name="DMPLine18" Left="14.4" Top="8.5" Width="1228.8" Height="0" Color="0"/>
+      <TfrxDMPCommand Name="DMPCommand6" Left="1180.8" Top="187" Width="9.6" Height="17" Command="#27#50"/>
+      <TfrxDMPMemoView Name="footer" Left="892.8" Top="34" Width="278.4" Height="17" DataSet="dblr" DataSetName="db0" DisplayFormat.FormatStr="dd mmmm yyyy" DisplayFormat.Kind="fkDateTime" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" Text="[db0.&#34;tanggal&#34;]"/>
+    </TfrxGroupFooter>
+    <TfrxGroupHeader Name="GroupHeader1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="17" Left="0" Top="187" Width="1276.8" Condition="db0.&#34;grouplhk&#34;">
+      <TfrxDMPLineView Name="DMPLine5" Left="14.4" Top="8.5" Width="1228.8" Height="0" Color="0"/>
+    </TfrxGroupHeader>
+    <TfrxGroupFooter Name="GroupFooter1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="0" Left="0" Top="255" Width="1276.8"/>
+  </TfrxDMPPage>
+  <TfrxDMPPage Name="Page2" PaperWidth="342.899778543893" PaperHeight="382.322669749942" PaperSize="256" LeftMargin="2.53999835958439" RightMargin="2.53999835958439" TopMargin="4.49791376176403" BottomMargin="4.49791376176403" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="" FontStyle="0">
+    <TfrxGroupHeader Name="GroupHeader4" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="17" Left="0" Top="204" Width="1276.8" Condition="db1.&#34;grouplhk&#34;">
+      <TfrxDMPLineView Name="DMPLine33" Left="14.4" Top="8.5" Width="1228.8" Height="0" Color="0"/>
+    </TfrxGroupHeader>
+    <TfrxMasterData Name="MasterData2" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="17" Left="0" Top="238" Width="1276.8" ColumnWidth="0" ColumnGap="0" DataSet="dblrrekap" DataSetName="db1" RowCount="0" Stretched="True">
+      <TfrxDMPLineView Name="DMPLine34" Left="1243.2" Top="8.5" Width="0" Height="8.5" Color="0"/>
+      <TfrxDMPLineView Name="DMPLine35" Left="1060.8" Top="8.5" Width="0" Height="8.5" Color="0"/>
+      <TfrxDMPLineView Name="DMPLine36" Left="878.4" Top="8.5" Width="0" Height="8.5" Color="0"/>
+      <TfrxDMPLineView Name="DMPLine37" Left="696" Top="8.5" Width="0" Height="8.5" Color="0"/>
+      <TfrxDMPLineView Name="DMPLine38" Left="14.4" Top="8.5" Width="0" Height="8.5" Color="0"/>
+      <TfrxDMPLineView Name="DMPLine39" Left="513.6" Top="8.5" Width="0" Height="8.5" Color="0"/>
+      <TfrxDMPLineView Name="DMPLine40" Left="331.2" Top="8.5" Width="0" Height="8.5" Color="0"/>
+      <TfrxDMPMemoView Name="DMPMemo8" Left="19.2" Top="0" Width="307.2" Height="17" DataSet="dblr" DataSetName="db0" FontStyle="0" ParentFont="False" TruncOutboundText="False" Text="[db1.&#34;uraian&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo31" Left="336" Top="0" Width="172.8" Height="17" DataSet="dblr" DataSetName="db0" DisplayFormat.FormatStr="#,##0.##" DisplayFormat.Kind="fkNumeric" FontStyle="0" HAlign="haRight" ParentFont="False" TruncOutboundText="False" Text="[db1.&#34;kb&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo32" Left="518.4" Top="0" Width="172.8" Height="17" DataSet="dblr" DataSetName="db0" DisplayFormat.FormatStr="#,##0.##" DisplayFormat.Kind="fkNumeric" FontStyle="0" HAlign="haRight" ParentFont="False" TruncOutboundText="False" Text="[db1.&#34;kk&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo33" Left="700.8" Top="0" Width="172.8" Height="17" DataSet="dblr" DataSetName="db0" DisplayFormat.FormatStr="#,##0.##" DisplayFormat.Kind="fkNumeric" FontStyle="0" HAlign="haRight" ParentFont="False" TruncOutboundText="False" Text="[db1.&#34;b2&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo34" Left="883.2" Top="0" Width="172.8" Height="17" DataSet="dblr" DataSetName="db0" DisplayFormat.FormatStr="#,##0.##" DisplayFormat.Kind="fkNumeric" FontStyle="0" HAlign="haRight" ParentFont="False" TruncOutboundText="False" Text="[db1.&#34;b3&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo35" Left="1065.6" Top="0" Width="172.8" Height="17" DataSet="dblr" DataSetName="db0" DisplayFormat.FormatStr="#,##0.##" DisplayFormat.Kind="fkNumeric" FontStyle="0" HAlign="haRight" ParentFont="False" TruncOutboundText="False" Text="[db1.&#34;total&#34;]"/>
+    </TfrxMasterData>
+    <TfrxPageHeader Name="PageHeader1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="153" Left="0" Top="17" Width="1276.8">
+      <TfrxDMPMemoView Name="DMPMemo12" Left="57.6" Top="0" Width="1180.8" Height="17" HAlign="haCenter" TruncOutboundText="False" Text="PERUSAHAAN DAERAH AIR MINUM"/>
+      <TfrxDMPCommand Name="DMPCommand7" Left="38.4" Top="0" Width="9.6" Height="17" Command="#27#80"/>
+      <TfrxDMPCommand Name="DMPCommand8" Left="19.2" Top="0" Width="9.6" Height="17" Command="#18"/>
+      <TfrxDMPLineView Name="DMPLine20" Left="14.4" Top="42.5" Width="1228.8" Height="0" Color="0"/>
+      <TfrxDMPMemoView Name="DMPMemo13" Left="38.4" Top="51" Width="1190.4" Height="17" FontStyle="5" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" Text="LAPORAN HARIAN KAS"/>
+      <TfrxDMPLineView Name="DMPLine21" Left="14.4" Top="110.5" Width="1228.8" Height="0" Color="0"/>
+      <TfrxDMPLineView Name="DMPLine22" Left="14.4" Top="144.5" Width="1228.8" Height="0" Color="0"/>
+      <TfrxDMPMemoView Name="DMPMemo15" Left="19.2" Top="119" Width="307.2" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="URAIAN"/>
+      <TfrxDMPLineView Name="DMPLine23" Left="331.2" Top="110.5" Width="0" Height="34" Color="0"/>
+      <TfrxDMPLineView Name="DMPLine26" Left="513.6" Top="110.5" Width="0" Height="34" Color="0"/>
+      <TfrxDMPLineView Name="DMPLine27" Left="696" Top="110.5" Width="0" Height="34" Color="0"/>
+      <TfrxDMPLineView Name="DMPLine28" Left="1060.8" Top="110.5" Width="0" Height="34" Color="0"/>
+      <TfrxDMPMemoView Name="DMPMemo16" Left="19.2" Top="17" Width="1219.2" Height="17" HAlign="haCenter" TruncOutboundText="False" Text="PEMERINTAH KABUPATEN PAMEKASAN&#13;&#10;PERUSAHAAN DAERAH AIR MINUM"/>
+      <TfrxDMPCommand Name="DMPCommand9" Left="38.4" Top="0" Width="9.6" Height="17" Command="#15"/>
+      <TfrxDMPLineView Name="DMPLine29" Left="14.4" Top="110.5" Width="0" Height="34" Color="0"/>
+      <TfrxDMPMemoView Name="DMPMemo17" Left="336" Top="119" Width="172.8" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="KAS BESAR"/>
+      <TfrxDMPMemoView Name="DMPMemo27" Left="518.4" Top="119" Width="172.8" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="KAS KECIL"/>
+      <TfrxDMPLineView Name="DMPLine30" Left="878.4" Top="110.5" Width="0" Height="34" Color="0"/>
+      <TfrxDMPMemoView Name="DMPMemo28" Left="700.8" Top="119" Width="172.8" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="GIRO B. JATIM"/>
+      <TfrxDMPMemoView Name="DMPMemo29" Left="883.2" Top="119" Width="172.8" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="BANK BTN"/>
+      <TfrxDMPMemoView Name="DMPMemo30" Left="1065.6" Top="119" Width="172.8" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="KAS/BANK LAINNYA"/>
+      <TfrxDMPLineView Name="DMPLine32" Left="1243.2" Top="110.5" Width="0" Height="34" Color="0"/>
+      <TfrxDMPMemoView Name="periode2" Left="460.8" Top="68" Width="364.8" Height="17" DataSet="dblr" DataSetName="db0" DisplayFormat.FormatStr="dd mmmm yyyy" DisplayFormat.Kind="fkDateTime" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" Text=""/>
+      <TfrxDMPCommand Name="DMPCommand10" Left="48" Top="0" Width="9.6" Height="17" Command="#27#48"/>
+    </TfrxPageHeader>
+    <TfrxReportSummary Name="ReportSummary1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="187" Left="0" Top="289" Width="1276.8">
+      <TfrxDMPMemoView Name="DMPMemo36" Left="48" Top="51" Width="278.4" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="Mengetahui"/>
+      <TfrxDMPMemoView Name="DMPMemo37" Left="48" Top="68" Width="278.4" Height="17" DataField="jab1" DataSet="dm.dbttd" DataSetName="dbttd" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="[dbttd.&#34;jab1&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo38" Left="48" Top="136" Width="278.4" Height="17" DataSet="dm.dbttd" DataSetName="dbttd" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="[dbttd.&#34;nama1&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo39" Left="48" Top="170" Width="278.4" Height="17" DataField="nik1" DataSet="dm.dbttd" DataSetName="dbttd" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="[dbttd.&#34;nik1&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo40" Left="451.2" Top="51" Width="278.4" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="Disetujui oleh"/>
+      <TfrxDMPMemoView Name="DMPMemo41" Left="451.2" Top="68" Width="278.4" Height="17" DataSet="dm.dbttd" DataSetName="dbttd" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="[dbttd.&#34;jab2&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo42" Left="451.2" Top="136" Width="278.4" Height="17" DataSet="dm.dbttd" DataSetName="dbttd" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="[dbttd.&#34;nama2&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo43" Left="451.2" Top="170" Width="278.4" Height="17" DataSet="dm.dbttd" DataSetName="dbttd" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="[dbttd.&#34;nik2&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo44" Left="873.6" Top="51" Width="278.4" Height="17" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="Dibuat oleh"/>
+      <TfrxDMPMemoView Name="DMPMemo45" Left="873.6" Top="68" Width="278.4" Height="17" DataSet="dm.dbttd" DataSetName="dbttd" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="[dbttd.&#34;jab3&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo46" Left="873.6" Top="136" Width="278.4" Height="17" DataSet="dm.dbttd" DataSetName="dbttd" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="[dbttd.&#34;nama3&#34;]"/>
+      <TfrxDMPMemoView Name="DMPMemo47" Left="873.6" Top="170" Width="278.4" Height="17" DataSet="dm.dbttd" DataSetName="dbttd" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" VAlign="vaCenter" Text="[dbttd.&#34;nik3&#34;]"/>
+      <TfrxDMPCommand Name="DMPCommand11" Left="1152" Top="170" Width="9.6" Height="17" Command="#18"/>
+      <TfrxDMPCommand Name="DMPCommand12" Left="1161.6" Top="170" Width="9.6" Height="17" Command="#27#50"/>
+      <TfrxDMPMemoView Name="footer2" Left="844.8" Top="34" Width="336" Height="17" DataSet="dblr" DataSetName="db0" FontStyle="0" HAlign="haCenter" ParentFont="False" TruncOutboundText="False" Text=""/>
+      <TfrxDMPLineView Name="DMPLine43" Left="878.4" Top="161.5" Width="268.8" Height="0" Color="0"/>
+      <TfrxDMPLineView Name="DMPLine42" Left="456" Top="161.5" Width="268.8" Height="0" Color="0"/>
+      <TfrxDMPLineView Name="DMPLine41" Left="52.8" Top="161.5" Width="268.8" Height="0" Color="0"/>
+      <TfrxDMPLineView Name="DMPLine44" Left="14.4" Top="8.5" Width="1228.8" Height="0" Color="0"/>
+    </TfrxReportSummary>
+  </TfrxDMPPage>
+</TfrxReport>

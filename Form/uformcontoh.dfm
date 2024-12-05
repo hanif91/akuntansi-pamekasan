@@ -1,0 +1,72 @@
+object foformcontoh: Tfoformcontoh
+  Left = 0
+  Top = 0
+  BorderStyle = bsSingle
+  Caption = 'Contoh '
+  ClientHeight = 598
+  ClientWidth = 1039
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object RzPanel4: TRzPanel
+    Left = 0
+    Top = 0
+    Width = 1039
+    Height = 598
+    Align = alClient
+    BorderInner = fsPopup
+    BorderOuter = fsPopup
+    BorderHighlight = 5482548
+    BorderShadow = 5482548
+    TabOrder = 0
+    ExplicitWidth = 491
+    ExplicitHeight = 407
+    object RzPageControl1: TRzPageControl
+      Left = 2
+      Top = 2
+      Width = 1035
+      Height = 594
+      Hint = ''
+      ActivePage = TabSheet1
+      Align = alClient
+      BackgroundColor = 7457838
+      BoldCurrentTab = True
+      ButtonColor = 5264367
+      ButtonSymbolColor = clWhite
+      ButtonSymbolColorDisabled = 2250751
+      Color = 52479
+      LightenUnselectedColoredTabs = False
+      FlatColor = 7457838
+      HotTrackColor = 52479
+      ParentBackgroundColor = False
+      ParentColor = False
+      ParentShowHint = False
+      ShowCardFrame = False
+      ShowCloseButton = True
+      ShowHint = False
+      TabColors.HighlightBar = 6336039
+      TabColors.Shadow = 52479
+      TabColors.Unselected = 3927039
+      TabIndex = 0
+      TabOrder = 0
+      TextColors.Selected = 6710886
+      TextColors.Unselected = 10260600
+      UseGradients = False
+      ExplicitWidth = 487
+      ExplicitHeight = 403
+      FixedDimension = 19
+      object TabSheet1: TRzTabSheet
+        Color = 52479
+        Caption = 'Biodata Pribadi'
+        ExplicitWidth = 487
+        ExplicitHeight = 384
+      end
+    end
+  end
+end
